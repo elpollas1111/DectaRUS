@@ -19,3 +19,4 @@ if __name__ == "__main__":
     parser.add_argument("base_url", help="Base URL of FortiWeb (ex: https://10.0.0.5)")
     args = parser.parse_args()
     test_sqli(args.base_url)
+# python3 src/poc.py https://10.0.0.5
