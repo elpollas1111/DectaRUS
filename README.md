@@ -33,7 +33,7 @@ Its open source for you to exploit.-
 
 ## Proof of Concept (PoC)
 
-The following `curl` command demonstrates the **SQL Injection detection** without executing harmful payloads:
+The following `curl` command demonstrates the **SQL Injection detection** *you can* executing harmful payloads:
 
 ```bash
 curl -k -H "Authorization: Bearer aaa' OR '1'='1" \
